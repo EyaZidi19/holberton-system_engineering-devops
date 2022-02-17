@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-#The script is displaying "Best School" 10 times
+#The script is displaying "Best School" 10 timees
 
-j=1
-while [ $j -ne 11 ]
+count=0
+
+while [ $count -lt 10 ]
 do
-  if [ $j -eq 9 ]
+  if [ $count -eq 9 ]
   then
     echo "Hi"
-  else
-    echo "Best School"
   fi
-  j=$(( j + 1 ))
+  echo "Best School"
+  (( count++ ))
 done
