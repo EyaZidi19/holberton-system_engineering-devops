@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #This script is displaying "Best School" 10 times
-j=0
-while [ $j -ne 10 ]
+
+number=0
+until [ $number -eq 10 ]
 do
-  echo "Best School"
-  j=$(( j + 1 ))
+	echo "Best School"
+	number=$(( number + 1 ))
 done
