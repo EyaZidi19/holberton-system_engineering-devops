@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>404 Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image:url('https://img.ev.mu/images/articles/600x/972992.jpg'):
+    }
+
+    #vanta-canvas {
+      margin: 0;
+      height: 100vh;
+      position: relative;
+    }
+
+    .error-msg {
+      font-family: 'Style Script', cursive;
+      position: absolute;
+      z-index: 1;
+      color:white;
+      left: 50%;
+      top: 35%;
+      transform: translate(-50%, -50%);
+      font-size: 3rem;
+      text-align: center;
+      text-shadow: 1px 2px white;
+    }
+  </style>
+</head>
+
+<body >
+  <p class="error-msg">Ceci n'est pas une page</p>
+
+
+</body>
+
+</html>
